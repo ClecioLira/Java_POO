@@ -21,7 +21,8 @@ public class Aula_7 {
             1.68f,
             57.8f,
             14,
-            2,3
+            2,
+            3
         );
         L[2] = new Lutador(
             "Snapshadow",
@@ -64,13 +65,9 @@ public class Aula_7 {
             4
         );
 
-        L[0].status();
-        L[1].status();
-        L[2].status();
-        L[3].status();
-        L[4].status();
-        L[5].status();
-        
+        Luta UEC01 = new Luta();
+        UEC01.marcarLuta(L[4], L[5]);
+        UEC01.lutar();
     }
 
 }
