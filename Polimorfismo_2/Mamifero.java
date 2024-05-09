@@ -1,7 +1,7 @@
 package Polimorfismo_2;
 
 public class Mamifero extends Animal{
-    private String corDoPelo;
+    protected String corDoPelo;
 
     public String getCorDoPelo() {
         return this.corDoPelo;
